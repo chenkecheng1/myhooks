@@ -19,7 +19,7 @@ jobs:
 
       - name: Install and Build
         run: |
-          npm i -g pnpm@5.3 
+          npm i -g pnpm@8.15.3 
           pnpm run init
           pnpm run build:doc
         env:

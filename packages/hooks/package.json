@@ -1,9 +1,8 @@
 {
-  "name": "encode-hooks",
+  "name": "hooks",
   "version": "0.1.0",
   "description": " React 业务 Hooks",
   "keywords": [
-    "encode",
     "react",
     "hooks"
   ],
