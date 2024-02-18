@@ -1,7 +1,7 @@
 {
   "name": "encode-hooks",
-  "version": "0.0.1",
-  "description": " React 业务 Hooks",
+  "version": "0.1.0",
+  "description": "印客学院 React 业务 Hooks",
   "keywords": [
     "encode",
     "react",
@@ -10,9 +10,9 @@
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "types": "./lib/index.d.ts",
-  "unpkg": "dist/encodeHooks.js",
+  "unpkg": "dist/encode-hooks.js",
   "sideEffects": false,
-  "authors": "ckc",
+  "authors": "chenghuai",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

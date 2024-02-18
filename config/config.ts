@@ -18,7 +18,7 @@ export default {
       'fusion',
     ],
   ],
-  title: ' encode hooks',
+  title: '印客学院 encode hooks',
   mode: 'site',
   favicon: '/encode-hooks/avatar.png',
   logo: '/encode-hooks/avatar.png',
@@ -27,6 +27,7 @@ export default {
   hash: true,
   alias: {
     encodeHooks: process.cwd() + '/packages/hooks/src/index.ts',
+    ['encode-hooks']: process.cwd() + '/packages/hooks/src/index.ts',
   },
   resolve: {
     includes: ['docs', 'packages/hooks/src'],
@@ -41,6 +42,7 @@ export default {
   navs: [
     { title: '指南', path: '/guide' },
     { title: 'Hooks', path: '/hooks' },
+    { title: 'GitHub', path: 'https://github.com/encode-studio-fe/encode-hooks' },
   ],
   menus: {
     '/': [

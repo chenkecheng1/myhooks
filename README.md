@@ -1,6 +1,6 @@
 # encode-hooks
 
- React 业务 Hooks
+印客学院 React 业务 Hooks
 
 ## ⛰️ 能力支持
 
@@ -36,6 +36,7 @@
 
 1. 最终产物为多个基础子功能模块的耦合，选择`gulp`这种流程式的构建工具，能够更清晰的表达构建流程；
 2. 选择常用的`webpack`作为构建产物的声明式接入方式；
+3. 结合`unpkg`进行在线 dist 文件访问：[https://www.unpkg.com/encode-hooks](https://www.unpkg.com/encode-hooks)；
 
 ### 静态文件打包工具 -- dumi
 
@@ -58,8 +59,8 @@ pnpm run changelog
 
 ## 📧 联系
 
-
-- **Hooks** <https://encode-studio-fe.github.io/encode-hooks/>
+- **印客学院官网**: <http://encodestudio.cn>
+- **encode Hooks** <https://encode-studio-fe.github.io/encode-hooks/>
 - **GitHub**: <https://github.com/encode-studio-fe/encode-hooks>
 
 </br>
