@@ -1,4 +1,4 @@
-# encode-hooks
+# myhooks
 
 React 业务 Hooks
 
@@ -58,8 +58,7 @@ pnpm run changelog
 
 ## 📧 联系
 
-- **官网**: <http://encodestudio.cn>
-- **encode Hooks** <https://encode-studio-fe.github.io/encode-hooks/>
-- **GitHub**: <https://github.com/encode-studio-fe/encode-hooks>
+- **Hooks** <https://chenkecheng1.github.io/myhooks/>
+- **GitHub**: <https://github.com/chenkecheng1/myhooks>
 
 </br>

@@ -1,10 +1,9 @@
 {
-  "name": "encode-hooks",
+  "name": "hooks",
   "description": " React 业务 Hooks",
   "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    
     "init": "pnpm install && pnpm run build",
     "start": "pnpm run dev",
     "clean-dist": "rimraf 'packages/hooks/{lib,es,node_modules,dist}'",
@@ -22,13 +21,13 @@
     "ckcs-lint-cli-fix": "ckcs-lint-cli fix"
   },
   "keywords": [
-    "encode",
     "react",
     "hooks"
   ],
   "author": "ckc",
   "license": "ISC",
   "devDependencies": {
+    "ckcs-lint-cli": "^1.0.15",
     "@ant-design/icons": "^5.0.1",
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",
@@ -79,8 +78,5 @@
       "pre-commit": "ckcs-lint-cli commit-file-scan",
       "commit-msg": "ckcs-lint-cli commit-msg-scan"
     }
-  },
-  "dependencies": {
-    "ckcs-lint-cli": "^1.0.15"
   }
 }

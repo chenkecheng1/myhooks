@@ -1,14 +1,14 @@
 ---
 title: 首页
 hero:
-  image: /encode-hooks/short-logo.png
+  # image: /myhooks/short-logo.png
   desc: React 业务 Hooks
   actions:
     - text: 指南
       link: /guide
     - text: Hooks 列表
       link: /hooks
-footer: Copyright (c) © 2023 by encode studio, All Rights Reserved
+footer: Copyright (c) © 2023 by ckc, All Rights Reserved
 ---
 
 ## ✨ 特性

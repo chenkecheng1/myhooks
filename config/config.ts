@@ -18,7 +18,7 @@ export default {
       'fusion',
     ],
   ],
-  title: ' encode hooks',
+  title: ' hooks',
   mode: 'site',
   favicon: '/encode-hooks/avatar.png',
   logo: '/encode-hooks/avatar.png',
@@ -42,7 +42,7 @@ export default {
   navs: [
     { title: '指南', path: '/guide' },
     { title: 'Hooks', path: '/hooks' },
-    { title: 'GitHub', path: 'https://github.com/encode-studio-fe/encode-hooks' },
+    { title: 'GitHub', path: 'https://github.com/chenkecheng1/myhooks' },
   ],
   menus: {
     '/': [
