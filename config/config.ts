@@ -18,7 +18,7 @@ export default {
       'fusion',
     ],
   ],
-  title: '印客学院 encode hooks',
+  title: ' encode hooks',
   mode: 'site',
   favicon: '/encode-hooks/avatar.png',
   logo: '/encode-hooks/avatar.png',
@@ -26,8 +26,8 @@ export default {
   manifest: {},
   hash: true,
   alias: {
-    encodeHooks: process.cwd() + '/packages/hooks/src/index.ts',
-    ['encode-hooks']: process.cwd() + '/packages/hooks/src/index.ts',
+    encodeHooks: `${process.cwd()}/packages/hooks/src/index.ts`,
+    'encode-hooks': `${process.cwd()}/packages/hooks/src/index.ts`,
   },
   resolve: {
     includes: ['docs', 'packages/hooks/src'],
