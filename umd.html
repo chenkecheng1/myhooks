@@ -14,7 +14,7 @@
     <script src="./packages/hooks/dist/ckc-hooks.js"></script>
 
     <script type="text/babel">
-      const { useToggle } = window.encodeHooks;
+      const { useToggle } = window['ckc-hooks'];
       const Demo = () => {
         const [show, { toggle }] = useToggle(false);
         return (
