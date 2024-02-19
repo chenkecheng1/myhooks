@@ -27,7 +27,7 @@
   "author": "ckc",
   "license": "ISC",
   "devDependencies": {
-    "ckcs-lint-cli": "^1.0.15",
+    "ckcs-lint-cli": "^1.0.20",
     "@ant-design/icons": "^5.0.1",
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",
