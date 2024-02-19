@@ -1,2 +1,2 @@
-module.exports = { extends: [ 'eslint-config-ckcs/react','prettier',],
+module.exports = { extends: [ 'eslint-config-ckcs/typescript/react','prettier',],
 };
