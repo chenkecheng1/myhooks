@@ -20,14 +20,14 @@ export default {
   ],
   title: ' hooks',
   mode: 'site',
-  favicon: '/encode-hooks/avatar.png',
-  logo: '/encode-hooks/avatar.png',
+  favicon: '/ckc-hooks/avatar.png',
+  logo: '/ckc-hooks/avatar.png',
   dynamicImport: {},
   manifest: {},
   hash: true,
   alias: {
     encodeHooks: `${process.cwd()}/packages/hooks/src/index.ts`,
-    'encode-hooks': `${process.cwd()}/packages/hooks/src/index.ts`,
+    'ckc-hooks': `${process.cwd()}/packages/hooks/src/index.ts`,
   },
   resolve: {
     includes: ['docs', 'packages/hooks/src'],

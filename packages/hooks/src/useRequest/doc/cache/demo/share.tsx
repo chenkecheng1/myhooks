@@ -1,6 +1,6 @@
 import Mock from 'mockjs';
 import React from 'react';
-import { useRequest } from 'encode-hooks';
+import { useRequest } from 'ckc-hooks';
 
 async function getArticle(): Promise<{ data: string; time: number }> {
   console.log('cacheKey-share');

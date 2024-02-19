@@ -1,5 +1,5 @@
 import React from 'react';
-import { useSet } from 'encode-hooks';
+import { useSet } from 'ckc-hooks';
 
 export default () => {
   const [set, { add, remove, reset }] = useSet(['Hello']);

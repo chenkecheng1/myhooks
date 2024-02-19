@@ -5,7 +5,7 @@
  */
 
 import React, { useState } from 'react';
-import { useEventListener } from 'encode-hooks';
+import { useEventListener } from 'ckc-hooks';
 
 export default () => {
   const [value, setValue] = useState('');

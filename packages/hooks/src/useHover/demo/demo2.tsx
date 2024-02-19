@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { useHover } from 'encode-hooks';
+import { useHover } from 'ckc-hooks';
 
 export default () => {
   const isHovering = useHover(() => document.getElementById('hover-div'), {

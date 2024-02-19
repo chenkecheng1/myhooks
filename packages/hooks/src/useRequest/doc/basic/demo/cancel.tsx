@@ -1,6 +1,6 @@
 import { message } from 'antd';
 import React, { useState } from 'react';
-import { useRequest } from 'encode-hooks';
+import { useRequest } from 'ckc-hooks';
 
 function editUsername(username: string): Promise<void> {
   return new Promise((resolve, reject) => {

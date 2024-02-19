@@ -1,4 +1,4 @@
-import { useRequest } from 'encode-hooks';
+import { useRequest } from 'ckc-hooks';
 import Mock from 'mockjs';
 import React from 'react';
 

@@ -1,4 +1,4 @@
-import { useRequest } from 'encode-hooks';
+import { useRequest } from 'ckc-hooks';
 import Mock from 'mockjs';
 import React, { useState } from 'react';
 
@@ -14,7 +14,11 @@ export default () => {
   const [state, setState] = useState('');
 
   // get username
-  const { data: username, run, params } = useRequest(getUsername, {
+  const {
+    data: username,
+    run,
+    params,
+  } = useRequest(getUsername, {
     defaultParams: ['1'],
   });
 

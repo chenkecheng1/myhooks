@@ -20,9 +20,9 @@ footer: Copyright (c) © 2023 by ckc, All Rights Reserved
 ## 📦 安装
 
 ```bash
-$ pnpm install --save encode-hooks
+$ pnpm install --save ckc-hooks
 # or
-$ yarn add encode-hooks
+$ yarn add ckc-hooks
 ```
 
 ## 🔨 使用
@@ -30,5 +30,5 @@ $ yarn add encode-hooks
 参考 `Hooks`内容，使用 如下：
 
 ```ts
-import { useToggle } from 'encode-hooks';
+import { useToggle } from 'ckc-hooks';
 ```

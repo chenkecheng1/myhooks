@@ -1,4 +1,4 @@
-import { useRequest } from 'encode-hooks';
+import { useRequest } from 'ckc-hooks';
 import React, { useState } from 'react';
 import { message } from 'antd';
 

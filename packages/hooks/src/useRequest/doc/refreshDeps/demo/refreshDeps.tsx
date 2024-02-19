@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useRequest } from 'encode-hooks';
+import { useRequest } from 'ckc-hooks';
 
 const userSchool = (id: string) => {
   switch (id) {

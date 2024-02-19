@@ -5,7 +5,7 @@
  */
 
 import React from 'react';
-import { useSize } from 'encode-hooks';
+import { useSize } from 'ckc-hooks';
 
 export default () => {
   const size = useSize(document.querySelector('body'));

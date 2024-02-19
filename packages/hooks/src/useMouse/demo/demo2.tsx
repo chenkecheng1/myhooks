@@ -4,7 +4,7 @@
  */
 
 import React, { useRef } from 'react';
-import { useMouse } from 'encode-hooks';
+import { useMouse } from 'ckc-hooks';
 
 export default () => {
   const ref = useRef(null);
