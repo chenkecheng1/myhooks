@@ -13,7 +13,7 @@
   "sideEffects": false,
   "authors": "ckc",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.com/"
   },
   "scripts": {
     "build": "gulp && webpack-cli"
